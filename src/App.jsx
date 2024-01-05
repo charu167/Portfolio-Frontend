@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 
 //Importing Context
 import { AuthContextProvider } from "./context/Auth.Context";
@@ -20,7 +20,7 @@ function App() {
     <>
       <BrowserRouter>
         <AuthContextProvider>
-          <Navbar />
+          {/* <Navbar /> */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
