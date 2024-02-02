@@ -14,6 +14,7 @@ import DragAndDrop from "./pages/DragAndDrop";
 
 //Importing Components
 import Navbar from "./components/Navbar";
+import HomeNav from "./components/Home/HomeNav";
 
 function App() {
   return (
@@ -23,9 +24,8 @@ function App() {
           {/* <Navbar /> */}
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
+            {/* <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} /> */}
             <Route path="/dranndrop" element={<DragAndDrop />} />
           </Routes>
         </AuthContextProvider>
