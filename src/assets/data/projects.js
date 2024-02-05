@@ -17,7 +17,7 @@ const projects = [
     description:
       "Cross platform music sharing app built in MERN Stack. People in this era use various music streaming platforms like youtube and spotify. Often times, we face the problem of not being able to share music playlists across the music platoforms. Well, not anymore! SyncWave is the solution to thi.",
     github: "https://github.com/charu167/next-bro-zone",
-    // link: "https://sync-wave-client.vercel.app/",
+    link: "#",
     image: vegetables,
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description:
       "Cross platform music sharing app built in MERN Stack. People in this era use various music streaming platforms like youtube and spotify. Often times, we face the problem of not being able to share music playlists across the music platoforms. Well, not anymore! SyncWave is the solution to thi.",
     github: "https://github.com/charu167/netflix-client",
-    // link: "https://sync-wave-client.vercel.app/",
+    link: "#",
     image: netflix,
   },
   {
@@ -33,7 +33,7 @@ const projects = [
     description:
       "Cross platform music sharing app built in MERN Stack. People in this era use various music streaming platforms like youtube and spotify. Often times, we face the problem of not being able to share music playlists across the music platoforms. Well, not anymore! SyncWave is the solution to thi.",
     github: "https://github.com/charu167/People-s-Voice-Client",
-    // link: "https://sync-wave-client.vercel.app/",
+    link: "#",
     image: argentina,
   },
 ];

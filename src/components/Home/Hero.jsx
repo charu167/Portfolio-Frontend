@@ -9,8 +9,8 @@ export default function Hero() {
         <div className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
           <h1 className="mt-0 text-3xl tracking-wide flex gap-8 items-center font-bold  text-black md:text-4xl lg:text-4xl">
             <img
-              className="inline-block h-36 w-36 rounded-full"
-              src="https://wallpapers-clan.com/wp-content/uploads/2022/05/meme-pfp-31.jpg"
+              className="inline-block h-36 w-36 rounded-full aspect-auto"
+              src="https://cdn.pixabay.com/photo/2018/01/20/05/26/plane-3093859_1280.jpg"
               alt="Dan_Abromov"
             />
             <span>Charudatta Potdar</span>

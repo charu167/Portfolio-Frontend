@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, GraduationCap, Briefcase } from "lucide-react";
 
-const AccordionItem = ({ title, description, courses, date }) => {
+const AccordionItem = ({ title, description, courses, date, icon }) => {
   const [isOpen, setIsOpen] = useState(false);
   const contentRef = useRef(null);
 
@@ -11,8 +11,10 @@ const AccordionItem = ({ title, description, courses, date }) => {
         className="flex justify-between items-center w-full py-3 px-5 bg-white hover:bg-gray-100 focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <div className="flex justify-between w-full pr-5" >
-          <span className="text-lg font ">{title}</span>
+        <div className="flex justify-between w-full pr-5">
+          <span className="text-lg font flex gap-4">
+            {icon} {title}
+          </span>
           <span>{date}</span>
         </div>
         <span
@@ -44,7 +46,7 @@ const Education = ({ data }) => {
     <div className="mx-auto w-3/4">
       <div className="mx-auto mb-24 max-w-2xl text-center lg:max-w-5xl">
         <h1 className="mb-8 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl">
-          Education
+          Education & Work Experience
         </h1>
       </div>
       {data.map((item, index) => (
@@ -54,6 +56,7 @@ const Education = ({ data }) => {
           description={item.content}
           courses={item.courses}
           date={item.date}
+          icon={index === 1 || index === 2 ? <Briefcase /> : <GraduationCap />}
         />
       ))}
     </div>
