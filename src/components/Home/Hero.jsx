@@ -26,13 +26,13 @@ export default function Hero() {
             and intelligent web solutions. Let's build something amazing
             together!
           </p>
-          <button
+          {/* <button
             type="button"
             className="mt-8 text-center w-fit inline-flex items-center rounded-md bg-black px-3 py-2 text-sm font-semibold text-white hover:bg-black/80"
           >
             Checkout Demos
             <ArrowRight className="ml-2 h-4 w-4" />
-          </button>
+          </button> */}
         </div>
 
         {/* RIGHT HEXAGONS */}

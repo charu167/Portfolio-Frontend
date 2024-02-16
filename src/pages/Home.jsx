@@ -24,9 +24,9 @@ export default function Home() {
   return (
     <>
       {/* Navbar */}
-      <div className={y < 120 ? "mt-10" : null}>
+      {/* <div className={y < 120 ? "mt-10" : null}>
         <HomeNav />
-      </div>
+      </div> */}
 
       <div className="flex flex-col gap-40 font-serif">
         {/* Hero */}
