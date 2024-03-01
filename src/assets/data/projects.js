@@ -8,8 +8,8 @@ const projects = [
     title: "Sync Wave",
     description:
       "Cross platform music sharing app built in MERN Stack. People in this era use various music streaming platforms like youtube and spotify. Often times, we face the problem of not being able to share music playlists across the music platoforms. Well, not anymore! SyncWave is the solution to thi.",
-    github: "https://github.com/charu167/SyncWave-Client",
-    link: "https://sync-wave-client.vercel.app/",
+    github: "https://github.com/charu167/OAuth_Client",
+    link: "https://o-auth-client-blue.vercel.app/",
     image: piano,
   },
   {
